@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-
+import bootstrap from 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -9,11 +10,19 @@ function App() {
         <h1>Your GitHub's Commit History </h1>
       </header>
       <nav>
-        <ul>
-          <li>Home</li>
-          <li>Feature1</li>
-          <li>Feature2</li>
-          <li>About Yourself</li>
+        <ul className='nav justify-content-center'>
+          <li className='nav-item'>
+            <a href="#" className='nav-link active'>Home</a>
+          </li>
+          <li className='nav-item'>
+            <a href="#" className='nav-link'>Page 2</a>
+          </li>
+          <li className='nav-item'>
+            <a href="#" className='nav-link'>Page 3</a>
+          </li>
+          <li className='nav-item'>
+            <a href="#" className='nav-link'>About</a>
+          </li>
         </ul>
       </nav>
       <main>
